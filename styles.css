@@ -109,7 +109,9 @@ body {
     }
 
     .hero .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 }
