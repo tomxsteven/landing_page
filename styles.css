@@ -132,7 +132,7 @@ body {
         margin: 0;
     }
     .navbar .work-link {
-        touch-action: manipulation;
+        touch-action: none;
     }
 
     .hero .container {
