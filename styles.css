@@ -105,6 +105,10 @@ body {
 
 
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .navbar .container {
         display: flex;
         flex-direction: column;
