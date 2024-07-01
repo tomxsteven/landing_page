@@ -45,12 +45,6 @@ body {
 .navbar .work-link {
     pointer-events: auto;
 }
-.navbar .work-link:visited {
-    color: #e5e7eb;
-}
-.navbar .work-link:hover {
-    color: #5a77a0;
-}
 .navbar .work-link:active {
     color: #3882f6;
     transition: color 0.2s;
@@ -131,9 +125,6 @@ body {
     .navbar .links {
         margin: 0;
     }
-    .navbar .work-link {
-        touch-action: none;
-    }
 
     .hero .container {
         display: flex;
@@ -142,9 +133,3 @@ body {
         text-align: center;
     }
 }
-
-/* @media (max-width: 440px) {
-    .navbar .work-link {
-        touch-action: manipulation;
-    }
-} */
