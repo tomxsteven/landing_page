@@ -52,7 +52,7 @@ body {
     display: flex;
     gap: 1rem;
 }
-.navbar .nav {
+.navbar .links {
     margin-right: 1.7rem;
 }
 
@@ -109,6 +109,9 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .navbar .links {
+        margin: 0;
     }
 
     .hero .container {
