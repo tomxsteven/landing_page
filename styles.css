@@ -130,8 +130,9 @@ body {
     }
     .navbar .links {
         margin: 0;
-    }.navbar .work-link:hover {
-        pointer-events: none;
+    }
+    .navbar .work-link {
+        touch-action: manipulation;
     }
 
     .hero .container {
@@ -141,3 +142,9 @@ body {
         text-align: center;
     }
 }
+
+/* @media (max-width: 440px) {
+    .navbar .work-link {
+        touch-action: manipulation;
+    }
+} */
