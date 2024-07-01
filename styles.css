@@ -130,6 +130,8 @@ body {
     }
     .navbar .links {
         margin: 0;
+    }.navbar .work-link:hover {
+        pointer-events: none;
     }
 
     .hero .container {
