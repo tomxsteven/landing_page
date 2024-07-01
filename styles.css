@@ -105,12 +105,11 @@ body {
 
 
 @media (max-width: 768px) {
-    body {
-        overflow-y: scroll; /* Add a scrollbar, but... */
-        scrollbar-width: none; /* ...hide it! */
-        -ms-overflow-style: none; /* For IE and Edge */
+    html, body {
+        overflow-x: hidden;
+        overflow-y: scroll;
     }
-    ::-webkit-scrollbar {
+    body::-webkit-scrollbar {
         display: none; /* For Chrome, Safari, and Opera */
     }
 
