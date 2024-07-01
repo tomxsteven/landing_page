@@ -91,6 +91,9 @@ body {
     border-radius: .5rem;
     margin-top: .75rem;
 }
+.hero button span {
+    margin-bottom: 2px;
+}
 .hero button:hover {
     opacity: 0.9;
 }
@@ -107,15 +110,15 @@ body {
 @media (max-width: 768px) {
     html {
         overflow-y: auto; /* Enable vertical scrolling */
-      }
-      body {
+    }
+    body {
         overflow-y: scroll; /* Add a scrollbar, but... */
         scrollbar-width: none; /* ...hide it! */
         -ms-overflow-style: none; /* For IE and Edge */
-      }
-      body::-webkit-scrollbar {
+    }
+    body::-webkit-scrollbar {
         display: none; /* For Chrome, Safari, and Opera */
-      }
+    }
 
     .navbar .container {
         display: flex;
