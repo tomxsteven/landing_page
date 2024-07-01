@@ -105,9 +105,17 @@ body {
 
 
 @media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
+    html {
+        overflow-y: auto; /* Enable vertical scrolling */
+      }
+      body {
+        overflow-y: scroll; /* Add a scrollbar, but... */
+        scrollbar-width: none; /* ...hide it! */
+        -ms-overflow-style: none; /* For IE and Edge */
+      }
+      body::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Opera */
+      }
 
     .navbar .container {
         display: flex;
