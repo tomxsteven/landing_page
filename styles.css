@@ -13,7 +13,7 @@ body {
     width: 100vw;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 .container {
@@ -57,11 +57,11 @@ body {
     margin-right: 1.7rem;
 }
 
-#navbar, #hero {
-    color: #f9faf8;
-}
 #navbar a, #hero p {
     color: #e5e7eb;
+}
+#navbar .logo a, #hero {
+    color: #f9faf8;
 }
 
 #hero {
@@ -79,6 +79,9 @@ body {
 }
 #hero h1, #hero p {
     margin-bottom: .5rem;
+}
+#hero p {
+    line-height: 1.4;
 }
 #hero button {
     background-color: #3882f6;
@@ -138,13 +141,46 @@ body {
     border-radius: 10px;
     margin-bottom: .5rem;
 }
-#info figcaption {
-    line-height: 1.2;
+
+#quote {
+    background-color: #e5e7eb;
 }
+#quote .container {
+    padding: 0 2rem;
+}
+#quote .bg-img {
+    background-image: url(./images/lava-into-ocean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 80/53;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote blockquote {
+    color: #f9faf8;
+    font-size: 2rem;
+    text-shadow: 0 0 4px black;
+    margin: 0 10%;
+}
+#quote p {
+    margin: 0 0 1rem;
+}
+#quote cite {
+    margin-left: 1rem;
+}
+
+
+
 
 @media (max-width: 965px) {
     #info .boxes {
         width: 72%;
+    }
+    #quote blockquote {
+        font-size: 1.5rem;
     }
 }
 
@@ -164,6 +200,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: .5rem;
     }
     #navbar .links {
         margin: 0;
@@ -174,5 +211,21 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    #hero img {
+        transform: translateX(-1rem);
+    }
+
+    #quote .container {
+        padding: 0;
+    }
+    #quote blockquote {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 580px) {
+    #quote blockquote {
+        font-size: 1rem;
     }
 }
