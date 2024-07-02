@@ -115,6 +115,9 @@ body {
     align-items: center;
     gap: 2rem;
 }
+#info h2 {
+    text-align: center;
+}
 #info .boxes {
     width: 100%;
     display: flex;
