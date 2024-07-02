@@ -213,7 +213,7 @@ body {
         text-align: center;
     }
     #hero img {
-        transform: translateX(-1rem);
+        transform: translateX(-.75rem);
     }
 
     #quote .container {
