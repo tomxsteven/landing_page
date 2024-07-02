@@ -10,3 +10,12 @@ https://www.freepik.com/free-vector/cute-dino-chef-holding-spatula-cartoon-vecto
 https://www.freepik.com/free-vector/cute-dino-chef-cooking-ramen-noodle-cartoon-vector-icon-illustration-animal-food-icon-isolated_57145059.htm
 
 https://www.freepik.com/free-vector/cute-dinosaur-sad-with-meteor-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated_65557728.htm
+
+
+
+#Todo
+
+-Change color of hero img
+-Improve captions
+-Write Readme
+-Fix Firefox scrollbar gutter

@@ -138,6 +138,9 @@ body {
     border-radius: 10px;
     margin-bottom: .5rem;
 }
+#info figcaption {
+    line-height: 1.2;
+}
 
 @media (max-width: 965px) {
     #info .boxes {
