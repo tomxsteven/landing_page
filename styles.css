@@ -62,10 +62,14 @@ body {
 }
 
 
-#navbar a, #hero p {
+#navbar a,
+#hero p,
+#action p {
     color: #e5e7eb;
 }
-#navbar .logo a, #hero {
+#navbar .logo a,
+#hero,
+#action .text {
     color: #f9faf8;
 }
 
@@ -151,10 +155,10 @@ body {
 
 
 #quote {
-    background-color: #e5e7eb;
+    background-color: #2b394c;
 }
 #quote .container {
-    padding: 0 2rem;
+    padding: 5rem 2rem 0;
 }
 #quote .bg-img {
     background-image: url(./images/lava-into-ocean.jpg);
@@ -179,6 +183,52 @@ body {
 }
 
 
+#action {
+    background: #2b394c;
+    display: flex;
+    justify-content: center;
+}
+#action .container {
+    flex: auto;
+    width: 80%;
+    max-width: 1036px;
+    min-width: 400px;
+    height: auto;
+    margin: 5rem;
+    padding: 2rem 4rem;
+    background: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1rem;
+}
+#action button {
+    flex: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 7rem;
+    height: 2rem;
+    border: 2px solid #f9faf8;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+#action button:hover {
+    opacity: 0.9;
+}
+#action button:active {
+    transform: scale(0.95);
+}
+#action .text {
+    max-width: 274px;
+}
+
+
 
 @media (max-width: 965px) {
     #info .boxes {
@@ -188,6 +238,7 @@ body {
         font-size: 1.5rem;
     }
 }
+
 
 @media (max-width: 768px) {
     html, body {
@@ -201,6 +252,7 @@ body {
         display: none; /* For Chrome, Safari, and Opera */
     }
 
+
     #navbar .container {
         display: flex;
         flex-direction: column;
@@ -210,6 +262,7 @@ body {
     #navbar .links {
         margin: 0;
     }
+
 
     #hero .container {
         display: flex;
@@ -221,13 +274,27 @@ body {
         transform: translateX(-.75rem);
     }
 
-    #quote .container {
-        padding: 0;
-    }
+    
     #quote blockquote {
         font-size: 1.25rem;
     }
+    #quote .container {
+        padding: 0;
+    }
 }
+
+
+@media (max-width: 689px) {
+    #action .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 400px;
+        min-width: 400px;
+    }
+}
+
 
 @media (max-width: 580px) {
     #quote blockquote {
